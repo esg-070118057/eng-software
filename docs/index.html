@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="pw0506.js" defer></script>
+    <link rel="stylesheet" href="pw0506.css">
+    <title>API de notícias</title>
+</head>
+<body>
+    <header>
+        <form id="fo_dist">
+            <input id="in_dist" autofocus type="text" placeholder="Distrito">
+            <button>Pesquisar</button>
+            <h3>Previsão de 5 dias para:</h3>
+            <h3 id="distrito">Distrito</h3>
+            <h3>#</h3>
+            <h3 id="distritoId">Id</h3>
+        </form>
 
+        <section id="previsoes">
+        </section>
+    </header>
+
+    <div class="contentor">
+        <div class="di_tema" style="flex: 1;">
+            <form id="fo_tema">
+                <input id="in_tema" autofocus type="text" placeholder="Tema">
+                <button>Pesquisar</button>
+                <h3 style="color:black;">Tema pesquisado:</h3>
+                <h3 id="tema">Últimas notícias</h3>
+            </form>
+        </div>
+        <div class="di_categoria" style="flex: 1;">
+            <form id="fo_categoria">
+                <h3 style="color:black;">Categoria selecionada:</h3>
+                <select id="se_categoria">
+                </select>
+                <button>Limpar</button>
+            </form>
+        </div>
+    </div>
+
+    <section id="noticias">
+    </section>
+
+</body>
+</html>

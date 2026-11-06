@@ -1,0 +1,71 @@
+body { margin: 0px; }
+
+header {
+    background-image: url(https://st2.depositphotos.com/3000273/7380/i/450/depositphotos_73804127-stock-photo-lightning-storm-over-city-in.jpg);
+    background-position: center;
+	background-size: cover;
+}
+
+h3 {
+	display: inline;
+	color:  white;
+}
+
+h3#distrito {
+	display: inline;
+	color:  brown;
+	background-color: violet;
+}
+
+h3#distritoId {
+	display: inline;
+	color: teal;
+	background-color: skyblue;
+}
+
+h3#tema {
+	display: inline;
+	color: rebeccapurple;
+	background-color: thistle;
+}
+
+section#previsoes {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+p.max {
+	display: inline;
+    font-family: monospace;
+    font-weight: bold;
+    color: orange;
+	background-color: brown;
+}
+
+p.min {
+	display: inline;
+	font-family: monospace;
+  	font-weight: bold;
+  	color: cyan;
+	background-color: teal;
+}
+
+.contentor {
+	display: flex;
+	text-align: center;
+}
+
+.esquerda {
+	flex: 1;
+	margin: 20px;
+}
+
+.direita {
+	flex: 2;
+	margin-right: 20px;
+}
+
+h2 { font-family: sans-serif; }
+
+p { font-family: serif; }
